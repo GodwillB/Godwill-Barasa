@@ -20,13 +20,13 @@
 
 <body>
 
- <div class="container">
+<div class="container">
   <h1>Top right corner, click it!</h1>
   <p>View type 2 <a href="https://codepen.io/PaulVanO/pen/GgGeyE" target="_blank">here</a></p>
 </div>
 
 <div class="button_container" id="toggle">
-  <span class="top"></span>
+    <span class="top"></span>
   <span class="middle"></span>
   <span class="bottom"></span>
 </div>
