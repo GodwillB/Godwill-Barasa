@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/fancymenu.css">
+   <link rel="stylesheet" href="css/menu.scss">
   <link rel="stylesheet" href="css/responsiveness.css">
   <title> Godwill Barasa</title>
   <meta name="description" content="Godwill Barasa is an experienced rockstar designer and developer based in Nairobi, Kenya. He has worked with many big brands including Legibra, Double Shasa Limited , Kenya Wildlife Service, Catholic Church. This is a curation of his articles including tutorials and posts about user design and front-end development"/>
@@ -19,33 +20,24 @@
 
 <body>
 
-  <header class="header">
-    <div class="burger">
-      <div class="burger__patty"></div>
-      <div class="burger__patty"></div>
-      <div class="burger__patty"></div>
-    </div>
+ <div class="container">
+  <h1>Top right corner, click it!</h1>
+  <p>View type 2 <a href="https://codepen.io/PaulVanO/pen/GgGeyE" target="_blank">here</a></p>
+</div>
 
-    <nav class="menu">
-      <div class="menu__brand">
-        <a href=""><div class="logo"></div></a>
-      </div>
-      <ul class="menu__list">
-        <li class="menu__item"><a href="" class="menu__link">Work</a></li>
-        <li class="menu__item"><a href="" class="menu__link">About</a></li>
-        <li class="menu__item">
-          <a href="https://twitter.com/ettrics" target="_blank" class="menu__link menu__link--social"><i class="fa fa-twitter"></i></a>
-        </li>
-        <li class="menu__item">
-          <a href="https://dribbble.com/ettrics" target="_blank" class="menu__link menu__link--social">
-            <i class="fa fa-dribbble"></i></a>
-        </li>
-      </ul>
-    </nav>
-</header>
+<div class="button_container" id="toggle">
+  <span class="top"></span>
+  <span class="middle"></span>
+  <span class="bottom"></span>
+</div>
 
-<main>
-  <h1><a href="http://ettrics.com" target="_blank">Ettrics</a></h1>
-  <h2>A Full-Screen Menu, showcasing your brand and website navigation.</h2>
-  <p class="support">With support for IE10 & latest versions of Chrome, Safari, and Firefox.</p>
-</main>
+<div class="overlay" id="overlay">
+  <nav class="overlay-menu">
+    <ul>
+      <li ><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Work</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</div>
