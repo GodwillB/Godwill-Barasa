@@ -11,8 +11,8 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/fancymenu.css">
-   <link rel="stylesheet" href="css/menu.scss">
+  <!-- <link rel="stylesheet" href="css/fancymenu.css"> -->
+   <!-- <link rel="stylesheet" href="css/menu.scss"> -->
   <link rel="stylesheet" href="css/responsiveness.css">
   <title> Godwill Barasa</title>
   <meta name="description" content="Godwill Barasa is an experienced rockstar designer and developer based in Nairobi, Kenya. He has worked with many big brands including Legibra, Double Shasa Limited , Kenya Wildlife Service, Catholic Church. This is a curation of his articles including tutorials and posts about user design and front-end development"/>
@@ -26,7 +26,7 @@
 </div>
 
 <div class="button_container" id="toggle">
-    <span class="top"></span>
+  <span class="top"></span>
   <span class="middle"></span>
   <span class="bottom"></span>
 </div>
