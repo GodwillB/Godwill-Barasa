@@ -1,6 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Vollkorn|Roboto);
+
 body {
   background: #f5f5f5;
+ font-family: 'Karla', sans-serif !important;
 }
 
 .container {

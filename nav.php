@@ -10,6 +10,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.jpg">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/animate.css">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/fancymenu.css">
    <!-- <link rel="stylesheet" href="css/menu.scss"> -->
@@ -36,3 +37,11 @@
     </ul>
   </nav>
 </div>
+
+<?php
+$i = 1;
+while($i <= 3){
+    $i++;
+    echo "The number is " . $i . "<br>";
+}
+?>
