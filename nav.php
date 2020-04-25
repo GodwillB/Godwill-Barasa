@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/style.css">
-  <!-- <link rel="stylesheet" href="css/fancymenu.css"> -->
+  <link rel="stylesheet" href="css/fancymenu.css">
    <!-- <link rel="stylesheet" href="css/menu.scss"> -->
   <link rel="stylesheet" href="css/responsiveness.css">
   <title> Godwill Barasa</title>
@@ -19,8 +19,6 @@
 </head>
 
 <body>
-
-
 
 <div class="button_container" id="toggle">
   <span class="top"></span>
